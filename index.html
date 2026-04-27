@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tooltip Navigation UI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="#">SaaS<span class="brand-accent">Flow</span></a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">
+              <span class="nav-label">Home</span>
+              <span class="tooltip">Return to homepage</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              <span class="nav-label">About</span>
+              <span class="tooltip">Learn about our story</span>
+            </a>
+          </li>
+          <li class="nav-item nav-item--active">
+            <a href="#services" class="nav-link">
+              <span class="nav-label">Services</span>
+              <span class="tooltip">Explore what we offer</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">
+              <span class="nav-label">Projects</span>
+              <span class="tooltip">View recent work</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <span class="nav-label">Contact</span>
+              <span class="tooltip">Start a conversation</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero-section">
+    <div class="hero-content">
+      <p class="eyebrow">Elegant UI interaction</p>
+      <h1>Navigation with subtle tooltips</h1>
+      <p class="hero-copy">
+        A lightweight, responsive navigation experience for modern SaaS interfaces. Hover each item to reveal context-sensitive tooltip guidance.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
